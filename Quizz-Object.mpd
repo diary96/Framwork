@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{2B6F50C0-F06A-4524-B46F-ECC0BAFC2F51}" Label="" LastModificationDate="1488280782" Name="Quizz/Object" Objects="69" Symbols="10" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{2B6F50C0-F06A-4524-B46F-ECC0BAFC2F51}" Label="" LastModificationDate="1488282877" Name="Quizz/Object" Objects="69" Symbols="10" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,11 +12,12 @@
 <a:Code>QUIZZ_OBJECT</a:Code>
 <a:CreationDate>1488280721</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1488280741</a:ModificationDate>
+<a:ModificationDate>1488282877</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <a:History>ORG {825C4817-DD48-49FE-8854-C28449ECCD20}
 DAT 1488280741
-ATT </a:History>
+ATT 
+ATT FOPT</a:History>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Physical Objects]
@@ -104,7 +105,7 @@ GenSyncRmg=0
 [FolderOptions\Physical Objects\Database Generation\Format]
 GenScriptTitle=Yes
 GenScriptNamLabl=No
-GenScriptQDtbs=Yes
+GenScriptQDtbs=No
 GenScriptQOwnr=Yes
 GenScriptCase=0
 GenScriptEncoding=ANSI
@@ -261,7 +262,7 @@ Physical Options=Yes
 [FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Index\Filter]
 Primary key=Yes
 Foreign key=Yes
-Alternate key=Yes
+Alternate key=No
 Cluster=Yes
 Other=Yes
 
@@ -406,8 +407,8 @@ IndxFK=Yes
 IndxAK=Yes
 IndxPKName=%TABLE%_PK
 IndxFKName=%REFR%_FK
-IndxAKName=%AKEY%_AK
-IndxPreserve=No
+IndxAKName=%TABLE%_AK
+IndxPreserve=Yes
 IndxThreshold=0
 IndxStats=No
 RefrPreserve=No

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{2B6F50C0-F06A-4524-B46F-ECC0BAFC2F51}" Label="" LastModificationDate="1488280742" Name="Quizz/Object" Objects="69" Symbols="10" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{2B6F50C0-F06A-4524-B46F-ECC0BAFC2F51}" Label="" LastModificationDate="1488280782" Name="Quizz/Object" Objects="69" Symbols="10" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1147,8 +1147,8 @@ PhysOpts=</a:ModelOptionsText>
 <c:GenerationOrigins>
 <o:Shortcut Id="o3">
 <a:ObjectID>D9458757-AC3B-408C-B3A0-C573A0EABB51</a:ObjectID>
-<a:Name>ModeleConceptuelDonnees_1</a:Name>
-<a:Code>MODELECONCEPTUELDONNEES_1</a:Code>
+<a:Name>Quizz_conception</a:Name>
+<a:Code>QUIZZ_CONCEPTION</a:Code>
 <a:CreationDate>1488280742</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
 <a:ModificationDate>1488280742</a:ModificationDate>
@@ -1823,7 +1823,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o14">
-<a:Rect>((-14224,-20924), (-13224,-2776))</a:Rect>
+<a:Rect>((-13949,-20924), (-13499,-2776))</a:Rect>
 <a:ListOfPoints>((-13724,-2776),(-13724,-20924))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2949,11 +2949,11 @@ ATT MAND</a:History>
 </o:TargetModel>
 <o:TargetModel Id="o80">
 <a:ObjectID>AF6043CC-8847-42EC-9380-1FE48140C9F0</a:ObjectID>
-<a:Name>ModeleConceptuelDonnees_1</a:Name>
-<a:Code>MODELECONCEPTUELDONNEES_1</a:Code>
+<a:Name>Quizz_conception</a:Name>
+<a:Code>QUIZZ_CONCEPTION</a:Code>
 <a:CreationDate>1488280741</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1488280741</a:ModificationDate>
+<a:ModificationDate>1488280782</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <a:TargetModelURL>file:///%[PRJ_ROOT_DIR]%/ModeleConceptuelDonnees_1.mcd</a:TargetModelURL>
 <a:TargetModelID>825C4817-DD48-49FE-8854-C28449ECCD20</a:TargetModelID>
