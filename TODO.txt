@@ -1,0 +1,19 @@
+1) modele (Deomaine,entite) : 
+	non package  : S6.xxxx.modele.
+		       S6.xxx.dao.xxx
+		       S6.xxx.dao.utilities
+	2) regle de nommage
+	3) Attribut private 
+		=> setter getter 
+	4)IDE
+2) DAO : 
+	DeptDao 
+		save(Dept d)
+		update(Dept d)
+		Delete(Dept)
+		findAll()
+		findById(int id)
+
+	utiliser PreparedStatelent(SQL)
+	
+3) Test
